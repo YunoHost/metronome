@@ -17,8 +17,9 @@ Depends: adduser, ssl-cert, lua5.1,
  lua-socket,
  lua-sec,
  lua-filesystem (>= 1.4.2-3~),
+ lua-bitop,
  ${shlibs:Depends}, ${misc:Depends}
-Recommends: lua-zlib, lua-bitop
+Recommends: lua-zlib
 Suggests: lua-dbi-postgresql, lua-dbi-mysql, lua-dbi-sqlite3
 Provides: metronome-xmpp-server, metronome
 Conflicts: prosody-xmpp-server, prosody
